@@ -2,17 +2,16 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 141,
-  "versionName": "1.4.1",
+  "versionCode": 142,
+  "versionName": "1.4.2",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.4.1/apks/xingce-1.4.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.4.2/apks/xingce-1.4.2.apk",
   "sizeBytes": 758300,
-  "sha256": "17cc1dbd25953b0a21110cac6890baf0a4bc745bbf5b6dc0027b76dd28376a1a",
-  "publishedAt": "2026-10-04T10:40:09+00:00",
+  "sha256": "7a77b440e98507884b5ba453dfe7a8230952e623997729a3f08b597f57889203",
+  "publishedAt": "2026-10-04T11:30:11+00:00",
   "notes": [
-    "新增固定切题栏，长材料题也能方便地使用上一题、下一题和交卷。",
-    "答题和同页材料切题复用已加载的图表，保留材料折叠状态，修复原卷快速翻页显示旧页的问题。",
-    "新增错题直接复习入口，支持按模块与题数开刷，自动跳过待补齐的题。",
-    "完善导入汇总与待处理题筛选，识别失败或保存失败时保留原草稿，避免留下空题集。"
+    "题干编辑框随内容自动增高，完整显示长题干，避免在小框内上下滑动。",
+    "共享材料改为按需展开，普通题不再显示大块空白输入框；已有材料和同组题同步编辑继续保留。",
+    "题库编辑与导入校对统一使用新的编辑布局，解析也随内容展开。"
   ]
 }
