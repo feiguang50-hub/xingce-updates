@@ -2,16 +2,17 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 140,
-  "versionName": "1.4.0",
+  "versionCode": 141,
+  "versionName": "1.4.1",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.4.0/apks/xingce-1.4.0.apk",
-  "sizeBytes": 754204,
-  "sha256": "370e94a6e048fe0a9443c6d18aa1695bdb5129b2e76cf8dddb61df5c715b0c27",
-  "publishedAt": "2026-10-04T09:51:34+00:00",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.4.1/apks/xingce-1.4.1.apk",
+  "sizeBytes": 758300,
+  "sha256": "17cc1dbd25953b0a21110cac6890baf0a4bc745bbf5b6dc0027b76dd28376a1a",
+  "publishedAt": "2026-10-04T10:40:09+00:00",
   "notes": [
-    "新增在线版本检查、更新说明、下载进度和系统安装入口。",
-    "下载与安装前核对文件完整性、包名、版本和应用签名。",
-    "新增更新源地址和启动时检查开关，保留离线刷题与原有数据。"
+    "新增固定切题栏，长材料题也能方便地使用上一题、下一题和交卷。",
+    "答题和同页材料切题复用已加载的图表，保留材料折叠状态，修复原卷快速翻页显示旧页的问题。",
+    "新增错题直接复习入口，支持按模块与题数开刷，自动跳过待补齐的题。",
+    "完善导入汇总与待处理题筛选，识别失败或保存失败时保留原草稿，避免留下空题集。"
   ]
 }
