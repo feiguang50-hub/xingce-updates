@@ -1,0 +1,17 @@
+{
+  "format": "xingce-update",
+  "schemaVersion": 1,
+  "packageName": "cn.xingce.practice",
+  "versionCode": 140,
+  "versionName": "1.4.0",
+  "minSdk": 28,
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.4.0/apks/xingce-1.4.0.apk",
+  "sizeBytes": 754204,
+  "sha256": "370e94a6e048fe0a9443c6d18aa1695bdb5129b2e76cf8dddb61df5c715b0c27",
+  "publishedAt": "2026-10-04T09:51:34+00:00",
+  "notes": [
+    "新增在线版本检查、更新说明、下载进度和系统安装入口。",
+    "下载与安装前核对文件完整性、包名、版本和应用签名。",
+    "新增更新源地址和启动时检查开关，保留离线刷题与原有数据。"
+  ]
+}
