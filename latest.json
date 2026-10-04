@@ -2,16 +2,16 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 161,
-  "versionName": "1.6.1",
+  "versionCode": 162,
+  "versionName": "1.6.2",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.6.1/apks/xingce-1.6.1.apk",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.6.2/apks/xingce-1.6.2.apk",
   "sizeBytes": 799260,
-  "sha256": "fd42ba457ef42d1b420d37c39533ac75633b94db926f28cbccde25f6350467c8",
-  "publishedAt": "2026-10-04T15:09:46+00:00",
+  "sha256": "376238e268dd78ca12d4006d80a8bcafa73919fbab87c6ea6d4098799c7fe106",
+  "publishedAt": "2026-10-04T23:32:51+00:00",
   "notes": [
-    "修复带“参考答案”的题目被截断、答案漏匹配，以及长选项吞掉下一行答案的问题。",
-    "新增未分类题目与错题入口，修复有错题却显示空科目列表的矛盾提示。",
-    "修复预览后编辑跳错页面，保存、取消和返回保留原筛选、勾选与位置；空题库首屏直接显示导入引导。"
+    "修复待补答案题无法勾选的问题，支持逐题、题号、预览加入与全选本页。",
+    "缺答案、选项或原图的题可以先保存清单；开始前明确列出待补内容，并提供直接编辑入口。",
+    "补齐题目后返回原选题或清单，保留试卷、科目、页码和题序；未补齐时不判分、不静默跳题。"
   ]
 }
