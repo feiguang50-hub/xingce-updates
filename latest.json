@@ -2,16 +2,16 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 160,
-  "versionName": "1.6.0",
+  "versionCode": 161,
+  "versionName": "1.6.1",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.6.0/apks/xingce-1.6.0.apk",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.6.1/apks/xingce-1.6.1.apk",
   "sizeBytes": 799260,
-  "sha256": "d44253de2842d3b08ddf9ea82fca6ec88a939e8a955992fca6432ce342b4331a",
-  "publishedAt": "2026-10-04T14:22:56+00:00",
+  "sha256": "fd42ba457ef42d1b420d37c39533ac75633b94db926f28cbccde25f6350467c8",
+  "publishedAt": "2026-10-04T15:09:46+00:00",
   "notes": [
-    "整体界面采用统一蓝白风格，重做练习首页、我的试卷、错题、记录、报告、我的与设置等页面。",
-    "新增逐题勾选、按题号加入、跨试卷选题与顺序调整，只练你指定的题，不自动加入材料连题。",
-    "新增可保存、编辑和反复练习的个人清单，备份同时保留清单、当前勾选、题库与练习进度。"
+    "修复带“参考答案”的题目被截断、答案漏匹配，以及长选项吞掉下一行答案的问题。",
+    "新增未分类题目与错题入口，修复有错题却显示空科目列表的矛盾提示。",
+    "修复预览后编辑跳错页面，保存、取消和返回保留原筛选、勾选与位置；空题库首屏直接显示导入引导。"
   ]
 }
