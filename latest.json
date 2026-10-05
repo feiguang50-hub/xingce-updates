@@ -2,18 +2,18 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 170,
-  "versionName": "1.7.0",
+  "versionCode": 180,
+  "versionName": "1.8.0",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.7.0/apks/xingce-1.7.0.apk",
-  "sizeBytes": 803356,
-  "sha256": "cd886868604d167a6f8cf2b4e3c8a0cc879c9155686a2febaee7144b7a1a4739",
-  "publishedAt": "2026-10-05T06:35:34+00:00",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.8.0/apks/xingce-1.8.0.apk",
+  "sizeBytes": 807452,
+  "sha256": "2f1bc21f43c6f91f0f9e4e1c03cd88fed6004c54f0c4b3020b6b35be3e236590",
+  "publishedAt": "2026-10-05T13:39:25+00:00",
   "notes": [
-    "新增自测模式：缺标准答案的题也能作答、改选、写笔记和续练，不提前判分。",
-    "自测报告支持补标准答案后分批核对，正确率只计算已核对题，核对标记防止重复计分。",
-    "导入支持按缺答案、缺选项、缺原图和答案冲突筛选、题号搜索；刷新保留校对页码及筛选。",
-    "批量补答案显示冲突、重复题号和未匹配题号，不覆盖已有不同答案；保存后可直接进入选题。",
-    "错题与漏答重练保留原练习清单来源，原有题库、笔记、设置和练习进度继续保留。"
+    "新增单题与批量题库管理，可删除题目或仅从当前题集移出。",
+    "删除题集可选保留全部题目、只删独有题或包含共享题；显示受影响题集与数量，删除共享题需确认。",
+    "同名题集按独立ID处理，共享题和独立副本明确区分，不扩大到相同材料其他题。",
+    "新增回收站，恢复原题ID、笔记、统计和题集题序，保留共享题后续改动；完整备份包含回收记录和附件。",
+    "保留已保存作答与进行中的练习快照，原练习清单缺题时提示，恢复后继续使用；原有题库、设置和进度继续保留。"
   ]
 }
