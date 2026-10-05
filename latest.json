@@ -2,16 +2,18 @@
   "format": "xingce-update",
   "schemaVersion": 1,
   "packageName": "cn.xingce.practice",
-  "versionCode": 162,
-  "versionName": "1.6.2",
+  "versionCode": 170,
+  "versionName": "1.7.0",
   "minSdk": 28,
-  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.6.2/apks/xingce-1.6.2.apk",
-  "sizeBytes": 799260,
-  "sha256": "376238e268dd78ca12d4006d80a8bcafa73919fbab87c6ea6d4098799c7fe106",
-  "publishedAt": "2026-10-04T23:32:51+00:00",
+  "apkUrl": "https://raw.githubusercontent.com/feiguang50-hub/xingce-updates/v1.7.0/apks/xingce-1.7.0.apk",
+  "sizeBytes": 803356,
+  "sha256": "cd886868604d167a6f8cf2b4e3c8a0cc879c9155686a2febaee7144b7a1a4739",
+  "publishedAt": "2026-10-05T06:35:34+00:00",
   "notes": [
-    "修复待补答案题无法勾选的问题，支持逐题、题号、预览加入与全选本页。",
-    "缺答案、选项或原图的题可以先保存清单；开始前明确列出待补内容，并提供直接编辑入口。",
-    "补齐题目后返回原选题或清单，保留试卷、科目、页码和题序；未补齐时不判分、不静默跳题。"
+    "新增自测模式：缺标准答案的题也能作答、改选、写笔记和续练，不提前判分。",
+    "自测报告支持补标准答案后分批核对，正确率只计算已核对题，核对标记防止重复计分。",
+    "导入支持按缺答案、缺选项、缺原图和答案冲突筛选、题号搜索；刷新保留校对页码及筛选。",
+    "批量补答案显示冲突、重复题号和未匹配题号，不覆盖已有不同答案；保存后可直接进入选题。",
+    "错题与漏答重练保留原练习清单来源，原有题库、笔记、设置和练习进度继续保留。"
   ]
 }
