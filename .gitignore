@@ -5,4 +5,5 @@ signing/
 credentials.json
 *signing-backup*
 dist/
+node_modules/
 __pycache__/

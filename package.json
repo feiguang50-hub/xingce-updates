@@ -1,0 +1,10 @@
+{
+  "name": "xingce-ui-checks",
+  "private": true,
+  "scripts": {
+    "test": "node ui/tests/reading.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.64.1"
+  }
+}

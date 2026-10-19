@@ -2,9 +2,9 @@ name: UI build
 
 on:
   push:
-    paths: ['ui/**', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
+    paths: ['ui/**', 'package*.json', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
   pull_request:
-    paths: ['ui/**', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
+    paths: ['ui/**', 'package*.json', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
 
 permissions:
   contents: read
@@ -25,3 +25,8 @@ jobs:
           python ui/build.py
           python ui/build_preview.py
           node --check ui/home.js
+          node --check ui/practice.js
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Offline reading and practice browser checks
+        run: npm test

@@ -15,8 +15,8 @@ from zipfile import ZipFile
 from build import BASE_APK, ROOT, build_html
 
 PACKAGE = 'cn.xingce.practice.preview'
-VERSION_NAME = '1.8.0-ui.1'
-VERSION_CODE = 190
+VERSION_NAME = '1.8.0-ui.2'
+VERSION_CODE = 191
 NONE = 0xFFFFFFFF
 
 
