@@ -1,0 +1,27 @@
+name: UI build
+
+on:
+  push:
+    paths: ['ui/**', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
+  pull_request:
+    paths: ['ui/**', 'apks/xingce-1.8.0.apk', '.github/workflows/ui-build.yml']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13'
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+      - name: Build pinned offline frontend and isolated Android preview
+        run: |
+          python ui/build.py
+          python ui/build_preview.py
+          node --check ui/home.js
