@@ -4,3 +4,5 @@ signing/
 *.keystore
 credentials.json
 *signing-backup*
+dist/
+__pycache__/
