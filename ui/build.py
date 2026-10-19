@@ -22,6 +22,7 @@ def build_html(*, preview: bool = False) -> str:
     assert source.count('<script>boot();</script>') == 1
     css = (ROOT / 'ui' / 'theme.css').read_text(encoding='utf-8')
     javascript = (ROOT / 'ui' / 'home.js').read_text(encoding='utf-8')
+    javascript += '\n' + (ROOT / 'ui' / 'practice.js').read_text(encoding='utf-8')
     source = source.replace('</head>', '<style id="xingce-refined-theme">\n' + css + '\n</style></head>', 1)
     updater = 'const canNativeUpdate=()=>!!globalThis.XingceAndroid?.checkUpdate;'
     if source.count(updater) != 1:
